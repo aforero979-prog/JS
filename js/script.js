@@ -89,6 +89,32 @@
 
 //--------------------------------------------------------------------//
 
+// let minutos = Number(prompt("Cuantos minutos quieres pasar a segundos?"))
+// let minaseg = (minutos * 60)
+
+// alert( minutos + "minutos son: " + minaseg + "segundos")
+
+// let horas = Number(prompt("Cuantas horas quieres pasar a minutos?"))
+// let minuto = (horas * 60)
+
+// alert( horas + "horas son: " + minuto + "minutos")
+
+
+//--------------------------------------------------------------------//
+
+
+let milimetros = Number(prompt("cuantos milimetros quieres pasar a centimetros?"))
+let resCM = (milimetros / 10)
+
+alert(milimetros + "milimetros equivale a: " + resCM + " centimetros")
+
+let centimetros = Number(prompt("cuantos centimetros quieres pasar a milimetros?"))
+let resMIL = (centimetros * 10)
+
+alert(centimetros + " centimetros son igual a: " + resMIL + " milimetros")
+ 
+
+//--------------------------------------------------------------------//
 
 
 
