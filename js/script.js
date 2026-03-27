@@ -60,7 +60,7 @@
 // let dolares = Number(prompt( "Dinero en dolares"))
 // let resultadoP = (dolares * 3693)
 
-// alert(dolares + " " + "es igual a " + resultadoP + "COP")
+// alert(dolares + " " + "es igual a " + resultadoP.toFixed(2) + "COP")
 
 //--------------------------------------------------------------------//
 
@@ -103,18 +103,44 @@
 //--------------------------------------------------------------------//
 
 
-let milimetros = Number(prompt("cuantos milimetros quieres pasar a centimetros?"))
-let resCM = (milimetros / 10)
+// let milimetros = Number(prompt("cuantos milimetros quieres pasar a centimetros?"))
+// let resCM = (milimetros / 10)
 
-alert(milimetros + "milimetros equivale a: " + resCM + " centimetros")
+// alert(milimetros + "milimetros equivale a: " + resCM + " centimetros")
 
-let centimetros = Number(prompt("cuantos centimetros quieres pasar a milimetros?"))
-let resMIL = (centimetros * 10)
+// let centimetros = Number(prompt("cuantos centimetros quieres pasar a milimetros?"))
+// let resMIL = (centimetros * 10)
 
-alert(centimetros + " centimetros son igual a: " + resMIL + " milimetros")
+// alert(centimetros + " centimetros son igual a: " + resMIL + " milimetros")
  
 
 //--------------------------------------------------------------------//
 
 
+// let nombre = "Alejandro";
+// let edad = "30";
+// let correo = "aforero979@gmail.com";
+
+// console.log(`Hola, tu nombre es ${nombre}, tienes ${edad} años y tu correo es ${correo}`)
+
+// console.log(`Hola escoge la medida:
+//     1.) Centimetros
+//     2.) Metros
+//     3.) Kilometros
+//      `)
+
+ //-------------------------------------------------------------------//
+
+//cuánto costó la cena?, quien comió más debe pagar el doble que los demás//
+
+let cena = Number(prompt("Cuanto costó la cena?"))
+let asistentes = Number(prompt("Cuantos asistieron a la cena?"))
+let mas = (prompt("Quien comío más?"))
+
+
+let valorpp = ( cena / (asistentes + 1))
+
+
+
+console.log(`De los 4, ${mas} debe pagar ${valorpp * 2} y el resto tendrá que pagar ${valorpp}`)
 
