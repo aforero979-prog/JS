@@ -133,14 +133,63 @@
 
 //cuánto costó la cena?, quien comió más debe pagar el doble que los demás//
 
-let cena = Number(prompt("Cuanto costó la cena?"))
-let asistentes = Number(prompt("Cuantos asistieron a la cena?"))
-let mas = (prompt("Quien comío más?"))
+// let cena = Number(prompt("Cuanto costó la cena?"))
+// let asistentes = Number(prompt("Cuantos asistieron a la cena?"))
+// let mas = (prompt("Quien comío más?"))
 
 
-let valorpp = ( cena / (asistentes + 1))
+// let valorpp = ( cena / (asistentes + 1))
 
 
 
-console.log(`De los 4, ${mas} debe pagar ${valorpp * 2} y el resto tendrá que pagar ${valorpp}`)
+// console.log(`De los 4, ${mas} debe pagar ${valorpp * 2} y el resto tendrá que pagar ${valorpp}`)
 
+//----------------------------------------------------------------------//
+
+// let mas = (prompt("Quien comió más?"))
+// let menos = (prompt("Quien comió menos?"))
+// let cuantos = Number(prompt("Cuantos fueron a la cena?"))
+
+
+// let cena = Number(prompt("Cuanto costó la cena?"))
+
+// invitados * 2 + 1
+
+// let valorpp = ( cena / (cuantos * 0.5 )) 
+ 
+
+
+
+// console.log(`${mas} tiene que pagar ${valorpp * 4} y ${menos} tiene que pagar ${valorpp} , el resto tiene que pagar ${valorpp * 2}`)
+
+//---------------------------------------------------------------------------------------------------------------//
+
+// Un usuario mete una plata en un CDT, calcular intereses con el 10% de taza y a x tiempo//
+
+// let cantidad = Number(prompt("Cuanto dinero quieres meter en el CDT?"))
+// let tiempo = Number(prompt("Por cuantos meses quieres invertir el dinero?"))
+
+// let cdt = (( cantidad * 0.1) * tiempo)
+// let renta = (cantidad + cdt)
+
+// console.log(`Tu dinero a ${tiempo} meses, tendra una crecimiento de ${cdt} teniendo una rentabilidad de ${renta}`) // 
+
+
+
+//---------------------------------------------------------------------------------------------------------------//
+
+
+let names = [
+ 
+]
+
+let name1 = prompt("dime el nombre 1")
+let name2 = prompt("dime el nombre 2")
+let name3 = prompt("dime el nombre 3")
+
+
+
+
+names.push (name1 , name2 , name3 )
+
+console.log (names)
