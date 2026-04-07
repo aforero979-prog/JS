@@ -66,7 +66,7 @@ contador = contador + 4
 
 // arrays: funciona para hacer listas, se crean con los [] y los datos se separan con ",", para imprimir un dato en especifico se pone el numero correspondiente a su posición //
 
-// length: funciona para darnos la cantidad de datos que tenemos por lista //
+// length: funciona para darnos la cantidad de datos/caracteres que tenemos por lista //
 
 // length - 1
 
@@ -78,5 +78,10 @@ contador = contador + 4
 // objeto: {} // 
 
 // clave : valor // 
+
+
+//CONDICIONALES: if, else // 
+
+
 
 
