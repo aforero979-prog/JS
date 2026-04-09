@@ -83,5 +83,20 @@ contador = contador + 4
 //CONDICIONALES: if, else // 
 
 
+//BUCLES: 
+
+//---For: 
+
+// contador ; condición ; incremento //
+// for( let i = 0 ; i < colores.lenght ; i++){ 
+// }
+
+// let colores = [ "verde" , "rojo" , "negro"]
+
+//console.log(colores)
+
+// for( let i = 0 ; i < colores.lenght ; i++){ 
+
+// }
 
 

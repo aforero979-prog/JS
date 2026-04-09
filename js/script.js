@@ -256,54 +256,228 @@
 
 // preguntar al usuario que operación quiere realizar y entre cuales numerios //
 
-let operacion = prompt(`Cual operacion quieres realizar:
-    1 = Suma  
-    2 = Resta  
-    3 = División 
-    4 = Multiplicación `)
+// let operacion = prompt(`Cual operacion quieres realizar:
+//     1 = Suma  
+//     2 = Resta  
+//     3 = División 
+//     4 = Multiplicación `)
 
-let numero1 = Number(prompt("Primer valor: "))
-let numero2 = Number(prompt("Segundo valor: "))
-
-
-if (operacion > 4) {
-
-    console.log("Opción no valida, escoge una de las opciones indicadas")
-}
-
-if (operacion < 1) {
-
-    console.log("Opción no valida, escoge una de las opciones indicadas")
-}
+// let numero1 = Number(prompt("Primer valor: "))
+// let numero2 = Number(prompt("Segundo valor: "))
 
 
-if (operacion == 1 || operacion === "suma") {
+// if (operacion > 4) {
 
-    console.log(numero1 + numero2)
+//     console.log("Opción no valida, escoge una de las opciones indicadas")
+// }
 
-} else if (operacion == 2 || operacion === "resta") {
+// if (operacion < 1) {
 
-    console.log(numero1 - numero2)
-
-} else if (operacion == 3 || operacion === "division") {
-
-    console.log(numero1 / numero2)
-
-} else if (operacion == 4 || operacion == "multiplicacion") {
-
-    console.log(numero1 * numero2)
-
-}
-
-else {
-
-    console.log("Mal")
-    
-}
+//     console.log("Opción no valida, escoge una de las opciones indicadas")
+// }
 
 
+// if (operacion == 1 || operacion === "suma") {
+
+//     console.log(numero1 + numero2)
+
+// } else if (operacion == 2 || operacion === "resta") {
+
+//     console.log(numero1 - numero2)
+
+// } else if (operacion == 3 || operacion === "division") {
+
+//     console.log(numero1 / numero2)
+
+// } else if (operacion == 4 || operacion == "multiplicacion") {
+
+//     console.log(numero1 * numero2)
+
+// }
+
+// else {
+
+//     console.log("Mal")
+
+// }
+
+//---------------------------------------------------------------------------------------------------------------//
 
 // Piedra papel o tijera //
 
+
+// let options = ["piedra" , "papel" , "tijera"]
+// let azar = Math.floor( Math.random( ) * 3)
+
+// let computer = options[azar]
+
+// let usuario = prompt("Escoge entre piedra, papel ó tijera: ")
+
+
+
+// if (computer === usuario){ 
+
+//     console.log("¡EMPATE!")
+// }
+
+
+
+// else if (computer === "piedra" && usuario === "papel"){
+
+//     console.log("¡GANASTE!")
+// }
+
+// else if (computer === "piedra" && usuario === "tijera"){
+
+//     console.log("Gana el computador")
+// }
+
+
+
+// else if (computer === "tijera" && usuario === "piedra"){
+
+//     console.log("¡GANASTE!")
+// }
+
+// else if (computer === "tijera" && usuario === "papel"){
+
+//     console.log("Gana el computador")
+// }
+
+
+
+// else if (computer === "papel" && usuario === "tijera"){
+
+//     console.log("¡GANASTE!")
+// }
+
+// else if (computer === "papel" && usuario === "piedra"){
+
+//     console.log("Gana el computador")
+// }
+
+
+// else {
+
+//     console.log("Opción no valida")
+// }
+
+
+
+//----------------------------------------------------------------------------------------------//
+
+
+// let numeros = [1 , 2 , 11 , 28 , 5 , 3 , 7 , 10 , 8]
+
+// let pares = []
+
+// let impares = []
+
+// for(let i = 0 ; i < numeros.lenght ; i++) {
+
+//     if (numeros[i] % 2 === 0){
+
+//     pares.push(numeros[i])
+
+// } else {
+
+//     impares.push(numero[i])
+// }
+
+// }
+
+//-------------------------------------------------------------------------------------------------------//
+
+// let tabla = Number(prompt("Del 1 al 10 escoge qué tabla quieres hacer: "))
+// let numero = Number(prompt("Hasta qué número quieres la tabla: "))
+
+// for(let i = 1 ; i <= numero ; i++){
+//     console.log(` ${tabla} * ${i} = ${i * tabla}`)
+// }
+
+//-------------------------------------------------------------------------------------------------------//
+
+// let numeros = [1,2,3,4,5,6,7,8,90]
+
+// let suma = 0
+// let mayor = 0
+
+// for(let i = 0 ; i < numeros.length -1 ; i++) {
+
+//     console.log(numeros[3])
+
+// }
+
+
+//--------------------------------------------------------------------------------------------------------//
+
+// let frutas = ["manzana" , "banana" , "naranja" , "uva" , "mango",
+//     "fresa", "piña", "sandía", "kiwi", "pera", "melón", "cereza",
+// ]
+
+// let letras = []
+
+
+
+// for(let i = 0 ; i < frutas.length; i++) [
+
+//     letras = frutas[i].length ,
+  
+//    console.log( `la palabra`, frutas[i], `tiene`, letras , `letras`)
+
+// ]
+
+
+// let mayor = ''
+// let menor = ''
+
+// for( let i = 0 ; i < frutas.length; i++){ 
+
+//     letras = frutas[i].length 
+
+//    if(mayor.length < letras){
+//     mayor = frutas[i]
+//    } 
+
+//    if(menor.length > letras){
+//     menor = frutas[i]
+//    } 
+   
+
+//    console.log(`la palabra más larga es:`, mayor)
+//    console.log(`la palabra más corta es:`, menor)
+   
+    
+// }
+
+//--------------------------------------------------------------------------------------------------//
+
+let estudiantes = [
+  { "nombre": "Juan Pérez", "notaFinal": 4.5 },
+  { "nombre": "María Gómez", "notaFinal": 2.8 },
+  { "nombre": "Carlos López", "notaFinal": 4.2 },
+  { "nombre": "Ana Martínez", "notaFinal": 2.9 },
+  { "nombre": "Luis Rodríguez", "notaFinal": 3.5 },
+  { "nombre": "Sofía Hernández", "notaFinal": 4.7 },
+  { "nombre": "Diego Torres", "notaFinal": 3.9 },
+  { "nombre": "Valentina Ruiz", "notaFinal": 4.8 },
+  { "nombre": "Andrés Castro", "notaFinal": 1.6 },
+  { "nombre": "Camila Vargas", "notaFinal": 4.3 }
+]
+
+for(let i = 0 ; i < estudiantes.length ; i++){
+
+    let final = estudiantes[i].notaFinal
+    let nombre = estudiantes[i].nombre
+
+    if(final < 3){
+
+        console.log(`el estudiante ${nombre} no pasó la materia ya que su nota es ${final}`)
+    }else{
+        console.log(`el estudiante ${nombre} pasó la materia ya que su nota es ${final} `)
+    }
+
+
+}
 
 
