@@ -74,14 +74,40 @@ console.log(resultado);
 
 //---------------------------------------------//
 
-function promediarNotas(resultado) {
+function promediarNotas(notas) {
 
-    let division = resultado / notas.length
-    return division
+    let suma = sumarNotas(notas);
+    let promedio = suma / notas.length;
+
+    return promedio
 };
 
-let promedio = (promediarNotas(resultado));
+let promedio = (promediarNotas(notas));
 console.log(promedio.toFixed(2));
+
+//---------------------------------------------//
+
+for (let i = 0; i < alumnos.length; i++) {
+
+    let suma = sumarNotas(alumnos[i].notas);
+    let prom = promediarNotas(alumnos[i].notas)
+
+    console.log(`${alumnos[i].nombre} tuvo un promedio de ${prom.toFixed(2)}`)
+
+    if (prom > 5) {
+        console.log(`El valor no es válido`)
+    }
+    else if (prom < 0) {
+        console.log(`El valor no es válido`)
+    }
+    else if (prom >= 3) {
+        console.log(`El/La estudiante ${alumnos[i].nombre} pasó la materia`)
+    }
+    else {
+        console.log(`El/La estudiante ${alumnos[i].nombre} reprobó la materia`)
+    }
+
+}
 
 //---------------------------------------------//
 
@@ -95,22 +121,19 @@ for (let i = 0; i < alumnos.length; i++) {
 
 
 
+
+
+
+
+
+
+//---------------------------------------------//
+
 // function promedio(sumarNotas){
 
 //     let promedio = (suma.toFixed(2) / alumnos[i].notas.length)
 
 // }
-
-
-
-
-
-
-
-
-
-
-
 
 
 // for (let i = 0; i < alumnos.length; i++) {
