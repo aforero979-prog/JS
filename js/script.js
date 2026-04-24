@@ -452,32 +452,166 @@
 
 //--------------------------------------------------------------------------------------------------//
 
-let estudiantes = [
-  { "nombre": "Juan Pérez", "notaFinal": 4.5 },
-  { "nombre": "María Gómez", "notaFinal": 2.8 },
-  { "nombre": "Carlos López", "notaFinal": 4.2 },
-  { "nombre": "Ana Martínez", "notaFinal": 2.9 },
-  { "nombre": "Luis Rodríguez", "notaFinal": 3.5 },
-  { "nombre": "Sofía Hernández", "notaFinal": 4.7 },
-  { "nombre": "Diego Torres", "notaFinal": 3.9 },
-  { "nombre": "Valentina Ruiz", "notaFinal": 4.8 },
-  { "nombre": "Andrés Castro", "notaFinal": 1.6 },
-  { "nombre": "Camila Vargas", "notaFinal": 4.3 }
-]
+// let estudiantes = [
+//   { "nombre": "Juan Pérez", "notaFinal": [3 , 3 , 5 , 3] },
+//   { "nombre": "María Gómez", "notaFinal": [2.8, 2 , 5 , 1] },
+//   { "nombre": "Carlos López", "notaFinal": [2, 2 , 4 , 1] },
+//   { "nombre": "Ana Martínez", "notaFinal": [2.8, 2 , 3 , 1] },
+//   { "nombre": "Luis Rodríguez", "notaFinal": [2.8, 2 , 5 , 1] },
+//   { "nombre": "Sofía Hernández", "notaFinal": [2, 2 , 1 , 1] },
+//   { "nombre": "Diego Torres", "notaFinal": [2.8, 2 , 3 , 1] },
+//   { "nombre": "Valentina Ruiz", "notaFinal": [3, 2 , 3 , 1] },
+//   { "nombre": "Andrés Castro", "notaFinal": [2.8, 2 , 3 , 1] },
+//   { "nombre": "Camila Vargas", "notaFinal": [3 , 3 , 5 , 3] }
+// ]
 
-for(let i = 0 ; i < estudiantes.length ; i++){
+// for(let i = 0 ; i < estudiantes.length ; i++){
 
-    let final = estudiantes[i].notaFinal
-    let nombre = estudiantes[i].nombre
+//     let final = estudiantes[i].notaFinal
+//     let nombre = estudiantes[i].nombre
 
-    if(final < 3){
+//     if(final < 3){
+//         console.log(`el estudiante ${nombre} no pasó la materia ya que su nota es ${final}`)
+//     }else{
+//         console.log(`el estudiante ${nombre} pasó la materia ya que su nota es ${final} `)
+//     }
 
-        console.log(`el estudiante ${nombre} no pasó la materia ya que su nota es ${final}`)
-    }else{
-        console.log(`el estudiante ${nombre} pasó la materia ya que su nota es ${final} `)
-    }
+// }
+
+// for(let i = 0 ; i < estudiantes.length ; i++){
+
+//     let final = estudiantes[i].notaFinal
+//     let suma = 0 
 
 
-}
+//     for(let j = 0 ; j < final.length ; j++){
+
+//          suma = suma + final[j];
+
+//          console.log( `el estudiante`, suma / final.length)
+
+//     }
+
+    
+
+// }
+
+
+//-------------------------------------------------------------------------------------//
+
+// let azar = Math.floor ((Math.random () * 10 ) + 1)
+
+// let estado = true
+// let intentos = 1
+
+
+
+// while (estado) {
+
+//     let num = Number(prompt("Escoge un número:" ))
+
+//     if(num === azar) {
+
+//         alert(`Ganaste en: ${intentos}`)
+//         estado = false
+
+//     } else if(intentos >= 5) {
+         
+//         alert(`Perdiste, no te quedan más intentos!, el número era ${azar}`)
+//         estado = false
+
+
+//     } else{
+
+//         alert(`Ese no era`)
+//     }
+
+//     intentos++
+// }
+
+//----------------------------------------------------------------------------------------------//
+
+// let mes = Number(prompt(`Escoge un numero de mes: `))
+
+
+// switch (mes) {
+//     case 1: 
+//         alert(`Enero: Invierno`)        
+//         break;
+//     case 2:
+//         alert(`Febrero: Invierno`)         
+//         break;
+//     case 3:
+//         alert(`Marzo: Primavera`)         
+//         break;
+//     case 4:
+//         alert(`Abril: Primavera`)         
+//         break;
+//     case 5:
+//         alert(`Mayo: Primavera`)         
+//         break;
+//     case 6:
+//         alert(`Junio: Verano`)        
+//         break;
+//     case 7:
+//         alert(`Julio: Verano`)        
+//         break;
+//     case 8:
+//         alert(`Agosto: Verano`)        
+//         break;
+//     case 9:
+//         alert(`Semptiembre: Otoño`)        
+//         break;
+//     case 10:
+//         alert(`Octubre: Otoño`)        
+//         break;
+//     case 11:
+//         alert(`Noviembre: Otoño`)        
+//         break;
+//     case 12:
+//         alert(`Diciembre: Invierno`)        
+//         break;
+
+//     default:
+//         break;
+// }
+
+//-------------------------------------------------------------------------------//
+
+// let año = Number(prompt(`Escoge un año: `))
+
+
+// if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
+
+//     alert(`Es bisiesto`)
+
+// } else {
+
+//     alert(`No es bisiesto`)
+// }
+
+
+//------------------------------------------------------------------------------//
+
+
+
+// let año = [2004 , 2026 , 412, 1984]
+
+// let bisiesto = ``
+
+// for(let i ; i < año.length ; i++){
+
+//     if(año[i] = ((año[i] % 4 === 0 && año[i] % 100 !== 0) || año[i] % 400 === 0)) {
+
+//         console.log(`Este año ${año[i]} es bisisiesto`)
+
+//     } else {
+
+//         console.log(`Este año no`)
+//     }
+// }
+
+
+//--------------------------------------------------------------------------------//
 
 
